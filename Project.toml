@@ -1,0 +1,13 @@
+name = "MyPackage"
+uuid = "86107f68-4078-4e31-a0e0-8653044adac6"
+authors = ["Елизавета Александровна Еременко <eremenko.liz@mail.ru> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
